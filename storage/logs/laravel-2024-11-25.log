@@ -1,0 +1,24 @@
+[2024-11-25 15:38:35] local.DEBUG: User Login Success. Name: A Ki Asmoro Santo | Id: 6 | Email: santochijoho@gmail.com | Username: 100006 IP:127.0.0.1 | UpdateLoginData  
+[2024-11-25 15:38:42] local.INFO: Peta | User:A Ki Asmoro Santo(ID:6)  
+[2024-11-25 15:39:28] local.INFO: Peta | User:A Ki Asmoro Santo(ID:6)  
+[2024-11-25 15:40:32] local.INFO: Pengaduan | User:A Ki Asmoro Santo(ID:6)  
+[2024-11-25 15:40:38] local.INFO: Pengaduan | User:A Ki Asmoro Santo(ID:6)  
+[2024-11-25 15:40:45] local.INFO: Pengaduan | User:A Ki Asmoro Santo(ID:6)  
+[2024-11-25 16:00:45] local.INFO: Peta | User:A Ki Asmoro Santo(ID:6)  
+[2024-11-25 23:22:38] local.DEBUG: User Login Success. Name: A Ki Asmoro Santo | Id: 6 | Email: santochijoho@gmail.com | Username: 100006 IP:127.0.0.1 | UpdateLoginData  
+[2024-11-25 23:22:49] local.INFO: Peta | User:A Ki Asmoro Santo(ID:6)  
+[2024-11-25 23:23:06] local.INFO: Peta | User:A Ki Asmoro Santo(ID:6)  
+[2024-11-25 23:51:33] local.ERROR: Maximum execution time of 30 seconds exceeded {"userId":6,"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Maximum execution time of 30 seconds exceeded at Y:\\Project\\2024\\klikpr2\\ori\\laravel-starter-main\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connectors\\PostgresConnector.php:99)
+[stacktrace]
+#0 {main}
+"} 
+[2024-11-25 23:51:47] local.INFO: Peta | User:A Ki Asmoro Santo(ID:6)  
+[2024-11-25 23:52:37] local.INFO: Peta | User:A Ki Asmoro Santo(ID:6)  
+[2024-11-25 23:54:04] local.INFO: Peta | User:A Ki Asmoro Santo(ID:6)  
+[2024-11-25 23:54:14] local.INFO: Peta | User:A Ki Asmoro Santo(ID:6)  
+[2024-11-25 23:55:35] local.DEBUG: User Login Success. Name: A Ki Asmoro Santo | Id: 6 | Email: santochijoho@gmail.com | Username: 100006 IP:127.0.0.1 | UpdateLoginData  
+[2024-11-25 23:55:44] local.INFO: Peta | User:A Ki Asmoro Santo(ID:6)  
+[2024-11-25 23:58:23] local.INFO: Peta | User:A Ki Asmoro Santo(ID:6)  
+[2024-11-25 23:58:44] local.INFO: Peta | User:A Ki Asmoro Santo(ID:6)  
+[2024-11-25 23:58:48] local.INFO: Peta | User:A Ki Asmoro Santo(ID:6)  
+[2024-11-25 23:59:21] local.INFO: Peta | User:A Ki Asmoro Santo(ID:6)  
