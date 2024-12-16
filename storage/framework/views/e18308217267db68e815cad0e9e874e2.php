@@ -1,0 +1,1 @@
+<h5> Selamat datang di admin dashboard, silahkan pilih menu disamping kiri.</h5><?php /**PATH Y:\Project\2024\klikpr2\ori\laravel-starter-main\resources\views/backend/includes/dashboard.blade.php ENDPATH**/ ?>
