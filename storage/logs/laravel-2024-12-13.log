@@ -1,0 +1,15 @@
+[2024-12-13 19:57:48] local.ERROR: Maximum execution time of 30 seconds exceeded {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Maximum execution time of 30 seconds exceeded at Y:\\Project\\2024\\klikpr2\\ori\\laravel-starter-main\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:414)
+[stacktrace]
+#0 {main}
+"} 
+[2024-12-13 20:02:14] local.DEBUG: User Login Success. Name: A Ki Asmoro Santo | Id: 6 | Email: santochijoho@gmail.com | Username: 100006 IP:127.0.0.1 | UpdateLoginData  
+[2024-12-13 20:04:05] local.INFO: Peta | User:A Ki Asmoro Santo(ID:6)  
+[2024-12-13 20:10:56] local.INFO: Peta | User:A Ki Asmoro Santo(ID:6)  
+[2024-12-13 20:13:41] local.INFO: Peta | User:A Ki Asmoro Santo(ID:6)  
+[2024-12-13 20:14:01] local.INFO: Konsultasi | User:A Ki Asmoro Santo(ID:6)  
+[2024-12-13 20:14:07] local.INFO: Pengaduan | User:A Ki Asmoro Santo(ID:6)  
+[2024-12-13 20:15:51] local.INFO: Peta | User:A Ki Asmoro Santo(ID:6)  
+[2024-12-13 20:17:48] local.INFO: Konsultasi | User:A Ki Asmoro Santo(ID:6)  
+[2024-12-13 20:18:31] local.DEBUG: Posts List | User:A Ki Asmoro Santo (ID:6)  
+[2024-12-13 20:19:01] local.INFO: Notifications List | User:A Ki Asmoro Santo(ID:6)  
+[2024-12-13 20:19:43] local.DEBUG: Posts Create | User:A Ki Asmoro Santo (ID:6)  
