@@ -1,0 +1,1 @@
+<img src="<?php echo e(asset('img/logo-with-text.jpg')); ?>" style="height: 50px;"><?php /**PATH Y:\Project\2024\klikpr2\ori\laravel-starter-main\resources\views/components/application-logo.blade.php ENDPATH**/ ?>
