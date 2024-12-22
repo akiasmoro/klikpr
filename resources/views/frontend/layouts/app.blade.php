@@ -29,12 +29,12 @@
         <x-google-analytics />
     </head>
 
-    <body>
+    <body class="dark:border-gray-700 dark:bg-gray-900">
         <x-selected-theme />
         
         @include('frontend.includes.header')
 
-        <main class="bg-white dark:bg-gray-800">
+        <main class="bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300">
             @yield('content')
         </main>
 
