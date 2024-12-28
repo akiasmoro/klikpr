@@ -50,6 +50,35 @@
                 grid-template-columns: 1fr;
             }
         }
+
+        .fade-in-up {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+        }
+
+        .fade-in-down {
+            opacity: 0;
+            transform: translateY(-20px);
+            transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+        }
+
+        .fade-in-left {
+            opacity: 0;
+            transform: translateX(-20px);
+            transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+        }
+
+        .fade-in-right {
+            opacity: 0;
+            transform: translateX(20px);
+            transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+        }
+
+        .fade-visible {
+            opacity: 1 !important;
+            transform: translate(0, 0) !important;
+        }
     </style>
 
     <!-- Main Banner -->
@@ -77,14 +106,14 @@
 
     <!-- Section: Apa Itu KLIK PR -->
     <section class="description-section bg-white dark:bg-gray-900 py-16 px-6 md:px-20">
-        <div class="max-w-7xl mx-auto text-center">
-            <h2 class="text-3xl font-bold mb-8 animate__animated animate__fadeInUp">Apa Itu KLIK PR?</h2>
+        <div class="max-w-7xl mx-auto text-center fade-in-down">
+            <h2 class="text-3xl font-bold mb-8">Apa Itu KLIK PR?</h2>
             <div class="flex flex-wrap justify-center items-center">
-                <div class="w-full md:w-1/2 px-3">
+                <div class="w-full md:w-1/2 px-3 fade-in-left">
                     <img src="https://via.placeholder.com/600x400" alt="Apa Itu KLIK PR"
-                        class="w-full rounded-lg shadow-lg animate__animated animate__zoomIn">
+                        class="w-full rounded-lg shadow-lg">
                 </div>
-                <div class="w-full text-justify md:w-1/2 animate__animated animate__slideInRight">
+                <div class="w-full text-justify md:w-1/2 fade-in-right">
                     <p class="text-gray-400 px-3">
                         KLIK PR adalah platform digital yang memudahkan masyarakat Bandar Lampung untuk berkonsultasi
                         mengenai tata ruang dan melaporkan permasalahan terkait. Melalui platform ini, warga dapat dengan
@@ -104,12 +133,12 @@
     </section>
 
     <!-- Section: Konsultasi Tata Ruang -->
-    <section class="consultation-section bg-gray-200 dark:bg-gray-800 py-12 px-6 md:px-24">
+    <section class="consultation-section bg-gray-200 dark:bg-gray-800 py-12 px-6 md:px-24 fade-in-up">
         <div class="container mx-auto">
-            <h2 class="text-3xl font-semibold text-center mb-6 animate__animated animate__fadeIn">Konsultasi Tata Ruang</h2>
+            <h2 class="text-3xl font-semibold text-center mb-6">Konsultasi Tata Ruang</h2>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
                 <div
-                    class="p-6 rounded-lg shadow-md text-center bg-white dark:bg-gray-900 animate__animated animate__bounceIn">
+                    class="p-6 rounded-lg shadow-md text-center bg-white dark:bg-gray-900 fade-in-left">
                     <svg xmlns="http://www.w3.org/2000/svg" class="w-12 h-12 text-yellow-300 mx-auto" fill="none"
                         viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -119,7 +148,7 @@
                     <p class="text-gray-400">Dapatkan bantuan dari para ahli...</p>
                 </div>
                 <div
-                    class="p-6 rounded-lg shadow-md text-center bg-white dark:bg-gray-900 animate__animated animate__slideInUp">
+                    class="p-6 rounded-lg shadow-md text-center bg-white dark:bg-gray-900 fade-in-up">
                     <svg xmlns="http://www.w3.org/2000/svg" class="w-12 h-12 text-yellow-300 mx-auto" fill="none"
                         viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 6h12M8 12h12M8 18h12" />
@@ -128,7 +157,7 @@
                     <p class="text-gray-400">Cek FAQ...</p>
                 </div>
                 <div
-                    class="p-6 rounded-lg shadow-md text-center bg-white dark:bg-gray-900 animate__animated animate__fadeInUp">
+                    class="p-6 rounded-lg shadow-md text-center bg-white dark:bg-gray-900 fade-in-right">
                     <svg xmlns="http://www.w3.org/2000/svg" class="w-12 h-12 text-yellow-300 mx-auto" fill="none"
                         viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -142,37 +171,37 @@
     </section>
 
     <!-- Section: Laporan Pengaduan -->
-    <section class="report-section bg-gray-200 dark:bg-gray-800 py-12 px-6 md:px-24">
+    <section class="report-section bg-gray-200 dark:bg-gray-800 py-12 px-6 md:px-24 fade-in-up">
         <div class="container mx-auto text-center">
-            <h2 class="text-3xl font-semibold mb-6 animate__animated animate__fadeInDown">Laporan Pengaduan Tata Ruang</h2>
-            <p class="text-lg text-gray-400 mb-6 animate__animated animate__fadeIn">Laporkan masalah tata ruang di daerah
+            <h2 class="text-3xl font-semibold mb-6">Laporan Pengaduan Tata Ruang</h2>
+            <p class="text-lg text-gray-400 mb-6">Laporkan masalah tata ruang di daerah
                 Anda melalui platform kami.</p>
             <a href="#"
-                class="bg-yellow-300 px-6 py-3 rounded-lg shadow-md text-black hover:bg-yellow-400 animate__animated animate__pulse">Laporkan
+                class="bg-yellow-300 px-6 py-3 rounded-lg shadow-md text-black hover:bg-yellow-400">Laporkan
                 Sekarang</a>
         </div>
     </section>
 
     <!-- Section: Berita Terkini -->
     <section class="news-section bg-gray-200 dark:bg-gray-800 py-12 px-6 md:px-24">
-        <div class="container mx-auto">
-            <h2 class="text-3xl font-semibold text-center mb-6 animate__animated animate__fadeIn">Berita Terkini</h2>
+        <div class="container mx-auto fade-in-down">
+            <h2 class="text-3xl font-semibold text-center mb-6">Berita Terkini</h2>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-                <div class="p-6 rounded-lg shadow-md bg-white dark:bg-gray-900 animate__animated animate__fadeInUp">
+                <div class="p-6 rounded-lg shadow-md bg-white dark:bg-gray-900 fade-in-left">
                     <img src="https://via.placeholder.com/150x150" alt="Berita 1" class="rounded-lg mb-4">
                     <h3 class="text-xl font-semibold mb-2">Berita 1</h3>
                     <p class="text-gray-400">Deskripsi singkat berita 1.</p>
                     <button
                         class="bg-yellow-300 text-sm px-4 py-2 rounded-lg text-black shadow-md mt-4">Selengkapnya</button>
                 </div>
-                <div class="p-6 rounded-lg shadow-md bg-white dark:bg-gray-900 animate__animated animate__fadeInUp">
+                <div class="p-6 rounded-lg shadow-md bg-white dark:bg-gray-900 fade-in-up">
                     <img src="https://via.placeholder.com/150x150" alt="Berita 1" class="rounded-lg mb-4">
                     <h3 class="text-xl font-semibold mb-2">Berita 1</h3>
                     <p class="text-gray-400">Deskripsi singkat berita 1.</p>
                     <button
                         class="bg-yellow-300 text-sm px-4 py-2 rounded-lg text-black shadow-md mt-4">Selengkapnya</button>
                 </div>
-                <div class="p-6 rounded-lg shadow-md bg-white dark:bg-gray-900 animate__animated animate__fadeInUp">
+                <div class="p-6 rounded-lg shadow-md bg-white dark:bg-gray-900 fade-in-right">
                     <img src="https://via.placeholder.com/150x150" alt="Berita 1" class="rounded-lg mb-4">
                     <h3 class="text-xl font-semibold mb-2">Berita 1</h3>
                     <p class="text-gray-400">Deskripsi singkat berita 1.</p>
@@ -184,11 +213,11 @@
     </section>
 
     <!-- Section: Tutorial -->
-    <section class="tutorial-section bg-gray-200 dark:bg-gray-800 py-12 px-6 md:px-24">
+    <section class="tutorial-section bg-gray-200 dark:bg-gray-800 py-12 px-6 md:px-24 fade-in-up">
         <div class="flex flex-col items-center">
-            <h2 class="text-3xl font-semibold text-center mb-4 animate__animated animate__fadeInDown">Tutorial Penggunaan
+            <h2 class="text-3xl font-semibold text-center mb-4">Tutorial Penggunaan
                 KLIK PR</h2>
-            <iframe class="w-full md:w-2/3 h-64 rounded-lg shadow-lg animate__animated animate__fadeInUp"
+            <iframe class="w-full md:w-2/3 h-64 rounded-lg shadow-lg"
                 src="https://www.youtube.com/embed/your-video-id" frameborder="0" allowfullscreen></iframe>
         </div>
     </section>
@@ -209,6 +238,20 @@
                     el: '.swiper-pagination',
                     clickable: true,
                 },
+            });
+
+            const observer = new IntersectionObserver(entries => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('fade-visible');
+                    } else {
+                        entry.target.classList.remove('fade-visible');
+                    }
+                });
+            });
+
+            document.querySelectorAll('.fade-in-up, .fade-in-down, .fade-in-left, .fade-in-right').forEach(el => {
+                observer.observe(el);
             });
         });
     </script>
