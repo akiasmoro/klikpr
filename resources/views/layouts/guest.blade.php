@@ -10,16 +10,24 @@
         <!-- Scripts -->
         @vite(['resources/css/app-frontend.css'])
         @vite(['resources/js/app-frontend.js'])
+
+        <style>
+            .bg-image {
+                background-image: url('{{ asset('img/lampung-hero.png') }}'); /* Path gambar */
+                background-size: cover; /* Gambar menutupi seluruh layar */
+                background-position: center; /* Pusatkan gambar */
+                background-repeat: no-repeat; /* Jangan ulangi gambar */
+                min-height: 100vh; /* Tinggi minimum layar penuh */
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+        </style>
     </head>
     <body class="font-sans text-gray-900 antialiased">
         <x-selected-theme />
-        <div class="min-h-screen flex flex-col sm:justify-center items-center pt-6 sm:pt-0 bg-gray-100 dark:bg-gray-900">
-            <div>
-                <a href="/">
-                    <x-application-logo class="w-20 h-20 fill-current text-gray-500" />
-                </a>
-            </div>
-
+        <div class="bg-image">
             <div class="w-full sm:max-w-md mt-6 px-6 py-4 bg-white dark:bg-gray-800 shadow-md overflow-hidden sm:rounded-lg">
                 {{ $slot }}
             </div>

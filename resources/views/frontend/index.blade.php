@@ -111,7 +111,7 @@
             <div class="swiper-wrapper">
                 <div class="swiper-slide animate__animated animate__fadeIn">
                     <div class="relative h-full">
-                        <img src="{{ asset('img/lampung-hero.png') }}" alt="Banner 1" class="hidden md:block w-full md:h-full object-cover opacity-50">
+                        <img src="{{ asset('img/lampung-hero.png') }}" alt="Banner 1" class="hidden md:block w-full md:h-full object-cover">
                         <div class="absolute inset-0 flex items-center justify-center">
                             <div class="hero-content text-center max-w-4xl mx-4">
                                 <h1 class="text-4xl md:text-6xl font-bold animate__animated animate__fadeIn text-black/80 mb-6">
