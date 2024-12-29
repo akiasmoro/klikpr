@@ -105,12 +105,13 @@
     </style>
 
     <!-- Hero Section -->
-    <section class="main-banner overflow-hidden bg-white">
-        <div class="swiper-container relative h-screen max-h-[400px] md:max-h-[600px]">
+    <section class="main-banner overflow-hidden bg-white relative" style="background: linear-gradient(to bottom, #5D94CC, #FFFFFF);">
+        <div class="absolute inset-0 bg-gradient-to-b from-transparent via-white/50 to-white pointer-events-none"></div>
+        <div class="swiper-container relative h-screen max-h-[400px] md:max-h-[700px]">
             <div class="swiper-wrapper">
                 <div class="swiper-slide animate__animated animate__fadeIn">
                     <div class="relative h-full">
-                        <img src="{{ asset('img/bg-2.png') }}" alt="Banner 1" class="hidden md:block w-full md:h-full object-cover">
+                        <img src="{{ asset('img/lampung-hero.png') }}" alt="Banner 1" class="hidden md:block w-full md:h-full object-cover opacity-50">
                         <div class="absolute inset-0 flex items-center justify-center">
                             <div class="hero-content text-center max-w-4xl mx-4">
                                 <h1 class="text-4xl md:text-6xl font-bold animate__animated animate__fadeIn text-black/80 mb-6">
@@ -129,7 +130,7 @@
             <div class="swiper-button-prev"></div>
             <div class="swiper-pagination"></div>
         </div>
-    </section>
+    </section>   
 
     <!-- About Section -->
     <section id="about" class="bg-white dark:bg-gray-900 py-24 flex items-center justify-center">
@@ -140,7 +141,7 @@
             <div class="flex flex-wrap items-center justify-center gap-12">
                 <div class="w-full lg:w-[45%]">
                     <img src="{{ asset('img/aboutklikpr.png') }}" alt="Apa Itu KLIK PR" 
-                         class="w-full rounded-2xl shadow-2xl hover:shadow-3xl transition-shadow duration-300">
+                         class="w-full rounded-2xl transition-shadow duration-300">
                 </div>
                 <div class="w-full lg:w-[45%] space-y-6">
                     <p class="text-lg text-gray-700 dark:text-gray-300 leading-relaxed text-justify">
