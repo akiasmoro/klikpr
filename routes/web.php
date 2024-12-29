@@ -25,6 +25,8 @@ require __DIR__.'/auth.php';
 // home route
 Route::get('home', [FrontendController::class, 'index'])->name('home');
 
+Route::get('newsdetail', [NewsController::class, 'index'])->name('newsdetail');
+
 // Language Switch
 Route::get('language/{language}', [LanguageController::class, 'switch'])->name('language.switch');
 
@@ -36,6 +38,7 @@ Route::get('privacy', Privacy::class)->name('privacy');
 
 Route::group(['namespace' => 'App\Http\Controllers\Frontend', 'as' => 'frontend.'], function () {
     Route::get('/', 'FrontendController@index')->name('index');
+    Route::get('/newsdetail', 'NewsController@index')->name('newsdetail');
 
     Route::group(['middleware' => ['auth']], function () {
         /*
