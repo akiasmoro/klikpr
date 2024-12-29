@@ -9,35 +9,35 @@
   ),
   'barryvdh/laravel-debugbar' => 
   array (
-    'providers' => 
-    array (
-      0 => 'Barryvdh\\Debugbar\\ServiceProvider',
-    ),
     'aliases' => 
     array (
       'Debugbar' => 'Barryvdh\\Debugbar\\Facades\\Debugbar',
     ),
+    'providers' => 
+    array (
+      0 => 'Barryvdh\\Debugbar\\ServiceProvider',
+    ),
   ),
   'intervention/image-laravel' => 
   array (
-    'providers' => 
-    array (
-      0 => 'Intervention\\Image\\Laravel\\ServiceProvider',
-    ),
     'aliases' => 
     array (
       'Image' => 'Intervention\\Image\\Laravel\\Facades\\Image',
     ),
+    'providers' => 
+    array (
+      0 => 'Intervention\\Image\\Laravel\\ServiceProvider',
+    ),
   ),
   'laracasts/flash' => 
   array (
-    'providers' => 
-    array (
-      0 => 'Laracasts\\Flash\\FlashServiceProvider',
-    ),
     'aliases' => 
     array (
       'Flash' => 'Laracasts\\Flash\\Flash',
+    ),
+    'providers' => 
+    array (
+      0 => 'Laracasts\\Flash\\FlashServiceProvider',
     ),
   ),
   'laravel/breeze' => 
@@ -56,13 +56,13 @@
   ),
   'laravel/socialite' => 
   array (
-    'providers' => 
-    array (
-      0 => 'Laravel\\Socialite\\SocialiteServiceProvider',
-    ),
     'aliases' => 
     array (
       'Socialite' => 'Laravel\\Socialite\\Facades\\Socialite',
+    ),
+    'providers' => 
+    array (
+      0 => 'Laravel\\Socialite\\SocialiteServiceProvider',
     ),
   ),
   'laravel/tinker' => 
@@ -74,24 +74,24 @@
   ),
   'livewire/livewire' => 
   array (
-    'providers' => 
-    array (
-      0 => 'Livewire\\LivewireServiceProvider',
-    ),
     'aliases' => 
     array (
       'Livewire' => 'Livewire\\Livewire',
     ),
+    'providers' => 
+    array (
+      0 => 'Livewire\\LivewireServiceProvider',
+    ),
   ),
   'nasirkhan/module-manager' => 
   array (
-    'providers' => 
-    array (
-      0 => 'Nasirkhan\\ModuleManager\\ModuleManagerServiceProvider',
-    ),
     'aliases' => 
     array (
       'ModuleManager' => 'Nasirkhan\\ModuleManager\\ModuleManagerFacade',
+    ),
+    'providers' => 
+    array (
+      0 => 'Nasirkhan\\ModuleManager\\ModuleManagerServiceProvider',
     ),
   ),
   'nesbot/carbon' => 
@@ -131,24 +131,24 @@
   ),
   'spatie/laravel-html' => 
   array (
-    'providers' => 
-    array (
-      0 => 'Spatie\\Html\\HtmlServiceProvider',
-    ),
     'aliases' => 
     array (
       'Html' => 'Spatie\\Html\\Facades\\Html',
     ),
+    'providers' => 
+    array (
+      0 => 'Spatie\\Html\\HtmlServiceProvider',
+    ),
   ),
   'spatie/laravel-ignition' => 
   array (
-    'providers' => 
-    array (
-      0 => 'Spatie\\LaravelIgnition\\IgnitionServiceProvider',
-    ),
     'aliases' => 
     array (
       'Flare' => 'Spatie\\LaravelIgnition\\Facades\\Flare',
+    ),
+    'providers' => 
+    array (
+      0 => 'Spatie\\LaravelIgnition\\IgnitionServiceProvider',
     ),
   ),
   'spatie/laravel-medialibrary' => 
@@ -167,34 +167,34 @@
   ),
   'spatie/laravel-signal-aware-command' => 
   array (
-    'providers' => 
-    array (
-      0 => 'Spatie\\SignalAwareCommand\\SignalAwareCommandServiceProvider',
-    ),
     'aliases' => 
     array (
       'Signal' => 'Spatie\\SignalAwareCommand\\Facades\\Signal',
     ),
+    'providers' => 
+    array (
+      0 => 'Spatie\\SignalAwareCommand\\SignalAwareCommandServiceProvider',
+    ),
   ),
   'unisharp/laravel-filemanager' => 
   array (
+    'aliases' => 
+    array (
+    ),
     'providers' => 
     array (
       0 => 'UniSharp\\LaravelFilemanager\\LaravelFilemanagerServiceProvider',
     ),
-    'aliases' => 
-    array (
-    ),
   ),
   'yajra/laravel-datatables-oracle' => 
   array (
-    'providers' => 
-    array (
-      0 => 'Yajra\\DataTables\\DataTablesServiceProvider',
-    ),
     'aliases' => 
     array (
       'DataTables' => 'Yajra\\DataTables\\Facades\\DataTables',
+    ),
+    'providers' => 
+    array (
+      0 => 'Yajra\\DataTables\\DataTablesServiceProvider',
     ),
   ),
 );
