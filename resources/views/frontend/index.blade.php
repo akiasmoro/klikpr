@@ -257,10 +257,7 @@
                         </div>
                         <div class="p-6">
                             <div class="flex items-center mb-4">
-                                <span class="bg-yellow-100 text-yellow-800 text-sm font-medium px-3 py-1 rounded-full">
-                                    Kategori
-                                </span>
-                                <span class="text-gray-500 text-sm ml-4">1 jam yang lalu</span>
+                                <span class="text-gray-500 text-sm">1 jam yang lalu</span>
                             </div>
                             <h3 class="text-xl font-bold mb-3">Berita {{ $i }}</h3>
                             <p class="text-gray-600 dark:text-gray-400 mb-4">

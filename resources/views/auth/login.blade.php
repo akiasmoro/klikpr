@@ -5,15 +5,17 @@
     <div class="flex flex-col items-center justify-center bg-gray-50 dark:bg-gray-900 py-6 sm:px-6 lg:px-8">
         <div class="w-full max-w-md space-y-8">
             <div class="flex justify-center items-center">
-                <a href="/">
-                    <img src="{{ asset('img/logo-with-text.png') }}" class="h-20" alt="Default Logo" />
+                <a href="/" class="flex items-center justify-center">
+                    <img src="{{ asset('img/logo-with-text.png') }}" class="h-16" alt="Logo" />
+                    <img src="{{ asset('img/logo-klikpritem.png') }}" class="h-16" alt="Logo" />
                 </a>
             </div>
 
             <div>
                 <h2 class="mt-6 text-center text-3xl font-extrabold text-yellow-400 dark:text-white">
-                    {{ __('Masuk ke akun anda') }}
+                    {{ __('Masuk akun') }}
                 </h2>
+                <p class="mt-2 text-center">{{ __('Selamat  Datang di website KLIK PR! Silahkan login untuk masuk pada sistem')}}</p>
                 
             </div>
             <form method="POST" action="{{ route('login') }}" class="mt-8 space-y-6">
@@ -52,13 +54,13 @@
 
                 <!-- Submit Button -->
                 <div class="mt-6">
-                    <x-primary-button class="w-full flex justify-center items-center">
+                    <x-primary-button class="w-full flex bg-[#4551BA] hover:bg-[#3d48a9] justify-center items-center">
                         {{ __('Masuk') }}
                     </x-primary-button>
                 </div>                
 
                 <p class="mt-2 text-center text-sm text-gray-600 dark:text-gray-400">
-                    {{ __('atau') }}
+                    {{ __('Belum memiliki akun?') }}
                     <a href="{{ route('register') }}" class="font-medium text-indigo-600 hover:text-indigo-500 dark:text-indigo-400">
                         {{ __('Daftar') }}
                     </a>
