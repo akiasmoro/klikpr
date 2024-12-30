@@ -2,12 +2,12 @@
     <!-- Session Status -->
     <x-auth-session-status class="mb-4" :status="session('status')" />
 
-    <div class="flex flex-col items-center justify-center bg-gray-50 dark:bg-gray-900 py-6 sm:px-6 lg:px-8">
+    <div class="flex flex-col items-center justify-center bg-white dark:bg-gray-900 py-6 sm:px-6 lg:px-8">
         <div class="w-full max-w-md space-y-8">
             <div class="flex justify-center items-center">
                 <a href="/" class="flex items-center justify-center">
-                    <img src="{{ asset('img/logo-with-text.png') }}" class="h-16" alt="Logo" />
-                    <img src="{{ asset('img/logo-klikpritem.png') }}" class="h-16" alt="Logo" />
+                    <img src="{{ asset('img/logo-with-text.png') }}" class="h-12" alt="Logo" />
+                    <img src="{{ asset('img/logo-klikpritem.png') }}" class="h-12" alt="Logo" />
                 </a>
             </div>
 
@@ -54,7 +54,7 @@
 
                 <!-- Submit Button -->
                 <div class="mt-6">
-                    <x-primary-button class="w-full flex bg-[#4551BA] hover:bg-[#3d48a9] justify-center items-center">
+                    <x-primary-button class="w-full flex bg-[#4854c0] hover:bg-[#3d48a9] justify-center items-center">
                         {{ __('Masuk') }}
                     </x-primary-button>
                 </div>                

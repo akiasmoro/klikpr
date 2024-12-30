@@ -14,6 +14,18 @@
             overflow: hidden;
         }
 
+        .main-banner {
+            background-image: url('{{ asset('img/lampung-hero.png') }}');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
         .swiper-button-next,
         .swiper-button-prev {
             width: 50px;
@@ -105,18 +117,17 @@
     </style>
 
     <!-- Hero Section -->
-    <section class="main-banner overflow-hidden bg-white relative" style="background: linear-gradient(to bottom, #5D94CC, #FFFFFF);">
-        <div class="absolute inset-0 bg-gradient-to-b from-transparent via-white/50 to-white pointer-events-none"></div>
+    <section class="main-banner overflow-hidden bg-white relative">
         <div class="swiper-container relative h-screen max-h-[400px] md:max-h-[700px]">
             <div class="swiper-wrapper">
                 <div class="swiper-slide animate__animated animate__fadeIn">
                     <div class="relative h-full">
-                        <img src="{{ asset('img/lampung-hero.png') }}" alt="Banner 1" class="hidden md:block w-full md:h-full object-cover">
+                        {{-- <img src="{{ asset('img/lampung-hero.png') }}" alt="Banner 1" class="hidden md:block w-full md:h-full object-cover"> --}}
                         <div class="absolute inset-0 flex items-center justify-center">
                             <div class="hero-content text-center max-w-4xl mx-4">
                                 <h1 class="text-4xl md:text-6xl font-bold animate__animated animate__fadeIn text-black/80 mb-6">
-                                    SELAMAT DATANG DI PORTAL</h1>
-                                <h2 class="text-5xl md:text-7xl font-extrabold animate__animated animate__fadeIn text-yellow-400 mb-8">
+                                    Selamat datang di Portal</h1>
+                                <h2 class="text-5xl md:text-8xl font-extrabold animate__animated animate__fadeIn text-yellow-500 mb-8">
                                     DISPERKIM</h2>
                                 <p class="text-xl text-black/80 mb-8 max-w-2xl mx-auto">
                                     Portal layanan terpadu untuk konsultasi dan pelaporan tata ruang Kota Bandar Lampung
@@ -126,9 +137,6 @@
                     </div>
                 </div>
             </div>
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-pagination"></div>
         </div>
     </section>   
 
@@ -178,9 +186,7 @@
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
                 <div class="bg-white dark:bg-gray-900 rounded-xl p-8 custom-shadow card-transition">
                     <div class="bg-yellow-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-yellow-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16h8M8 12h4m-4-4h8m-4-6a8 8 0 110 16 8 8 0 010-16z" />
-                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#C27803"><path d="M880-80 720-240H320q-33 0-56.5-23.5T240-320v-40h440q33 0 56.5-23.5T760-440v-280h40q33 0 56.5 23.5T880-640v560ZM160-473l47-47h393v-280H160v327ZM80-280v-520q0-33 23.5-56.5T160-880h440q33 0 56.5 23.5T680-800v280q0 33-23.5 56.5T600-440H240L80-280Zm80-240v-280 280Z"/></svg>
                     </div>
                     <h3 class="text-xl font-bold mb-4 text-center text-gray-800 dark:text-gray-100">Bantuan Ahli</h3>
                     <p class="text-gray-600 dark:text-gray-400 text-center leading-relaxed">
@@ -190,9 +196,7 @@
     
                 <div class="bg-white dark:bg-gray-900 rounded-xl p-8 custom-shadow card-transition">
                     <div class="bg-yellow-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-yellow-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M12 14a4 4 0 10-4-4 4 4 0 014 4zm0 0v2" />
-                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#C27803"><path d="m480-80-10-120h-10q-142 0-241-99t-99-241q0-142 99-241t241-99q71 0 132.5 26.5t108 73q46.5 46.5 73 108T800-540q0 75-24.5 144t-67 128q-42.5 59-101 107T480-80Zm80-146q71-60 115.5-140.5T720-540q0-109-75.5-184.5T460-800q-109 0-184.5 75.5T200-540q0 109 75.5 184.5T460-280h100v54Zm-101-95q17 0 29-12t12-29q0-17-12-29t-29-12q-17 0-29 12t-12 29q0 17 12 29t29 12Zm-29-127h60q0-30 6-42t38-44q18-18 30-39t12-45q0-51-34.5-76.5T460-720q-44 0-74 24.5T344-636l56 22q5-17 19-33.5t41-16.5q27 0 40.5 15t13.5 33q0 17-10 30.5T480-558q-35 30-42.5 47.5T430-448Zm30-65Z"/></svg>
                     </div>
                     <h3 class="text-xl font-bold mb-4 text-center text-gray-800 dark:text-gray-100">Pertanyaan Umum</h3>
                     <p class="text-gray-600 dark:text-gray-400 text-center leading-relaxed">
@@ -202,9 +206,7 @@
     
                 <div class="bg-white dark:bg-gray-900 rounded-xl p-8 custom-shadow card-transition">
                     <div class="bg-yellow-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-yellow-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-4 6h4" />
-                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#C27803"><path d="M200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h168q13-36 43.5-58t68.5-22q38 0 68.5 22t43.5 58h168q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H200Zm0-80h560v-560H200v560Zm80-80h280v-80H280v80Zm0-160h400v-80H280v80Zm0-160h400v-80H280v80Zm200-190q13 0 21.5-8.5T510-820q0-13-8.5-21.5T480-850q-13 0-21.5 8.5T450-820q0 13 8.5 21.5T480-790ZM200-200v-560 560Z"/></svg>
                     </div>
                     <h3 class="text-xl font-bold mb-4 text-center text-gray-800 dark:text-gray-100">Formulir Konsultasi</h3>
                     <p class="text-gray-600 dark:text-gray-400 text-center leading-relaxed">
@@ -297,7 +299,7 @@
             <div class="mt-12">
                 <div class="relative rounded-2xl overflow-hidden custom-shadow">
                     <iframe class="w-full aspect-video" 
-                            src="https://www.youtube.com/embed/" 
+                            src="https://www.youtube.com/embed/zRH6882G1pc?si=8G2clfAw5BLnvYiP"" 
                             frameborder="0" 
                             allowfullscreen></iframe>
                 </div>
