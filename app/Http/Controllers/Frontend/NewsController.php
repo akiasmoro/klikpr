@@ -13,6 +13,11 @@ class NewsController extends Controller
      */
     public function index()
     {
+        return view('frontend.news');
+    }
+
+    public function detail()
+    {
         return view('frontend.newsdetail');
     }
 }

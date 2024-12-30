@@ -157,7 +157,7 @@
                     <x-frontend.nav-item :active="request()->routeIs('home')">
                         {{ __('Home') }}
                     </x-frontend.nav-item>
-                    <x-frontend.nav-item :href="route('frontend.posts.index')" :active="request()->routeIs('frontend.posts.*')">
+                    <x-frontend.nav-item :href="route('frontend.news')" :active="request()->routeIs('frontend.news.*')">
                         {{ __('Posts') }}
                     </x-frontend.nav-item>
                     <x-frontend.nav-item :href="route('frontend.categories.index')" :active="request()->routeIs('frontend.categories.*')">
