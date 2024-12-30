@@ -6,8 +6,8 @@
         <div class="w-full max-w-md space-y-8">
             <div class="flex justify-center items-center">
                 <a href="/" class="flex items-center justify-center">
-                    <img src="{{ asset('img/logo-with-text.png') }}" class="h-12" alt="Logo" />
-                    <img src="{{ asset('img/logo-klikpritem.png') }}" class="h-12" alt="Logo" />
+                    <img src="{{ asset('img/logo-with-text.png') }}" class="h-8" alt="Logo" />
+                    <img src="{{ asset('img/logo-klikpritem.png') }}" class="h-8" alt="Logo" />
                 </a>
             </div>
 
