@@ -128,9 +128,11 @@
                                 <h1 class="text-4xl md:text-6xl font-bold animate__animated animate__fadeIn text-black/80 mb-6">
                                     Selamat datang di Portal</h1>
                                 <h2 class="text-5xl md:text-8xl font-extrabold animate__animated animate__fadeIn text-yellow-500 mb-8">
-                                    DISPERKIM</h2>
+                                    TATA RUANG</h2>
+                                <h3 class="text-5xl md:text-8xl font-extrabold animate__animated animate__fadeIn text-yellow-500 mb-8">
+                                    DINAS PERUMAHAN DAN PERMUKIMAN KOTA BANDAR LAMPUNG</h3>
                                 <p class="text-xl text-black/80 mb-8 max-w-2xl mx-auto">
-                                    Portal layanan terpadu untuk konsultasi dan pelaporan tata ruang Kota Bandar Lampung
+                                    Portal Layanan Terpadu Untuk Informasi Tata Ruang, Konsultasi Tata Ruang dan Pelaporan Masalah Tata Ruang.
                                 </p>
                             </div>
                         </div>
@@ -153,17 +155,7 @@
                 </div>
                 <div class="w-full lg:w-[45%] space-y-6">
                     <p class="text-lg text-gray-700 dark:text-gray-300 leading-relaxed text-justify">
-                        <b>KLIK PR adalah platform digital yang memudahkan masyarakat Bandar Lampung untuk berkonsultasi
-                        mengenai tata ruang dan melaporkan permasalahan terkait</b>. Melalui platform ini, warga dapat dengan
-                        mudah mengajukan pertanyaan tentang peraturan tata ruang, serta melaporkan pengaduan mengenai
-                        pelanggaran atau masalah yang ada, seperti penggunaan lahan yang tidak sesuai atau dampak
-                        pembangunan yang merugikan.
-                    </p>
-                    <p class="text-lg text-gray-700 dark:text-gray-300 leading-relaxed text-justify">
-                        KLIK PR juga menyediakan informasi terkini tentang kebijakan dan kegiatan tata ruang di Kota Bandar
-                        Lampung, memfasilitasi transparansi dan partisipasi aktif warga dalam perencanaan dan pengelolaan
-                        ruang kota. Dengan adanya platform ini, diharapkan dapat tercipta komunikasi yang lebih baik antara
-                        pemerintah dan masyarakat untuk membangun kota yang lebih teratur dan nyaman.
+                        <b>KLIK PR adalah “Keterangan Langsung Informasi Kesesuaian Pemanfaatan Ruang Ruang”.</b> Merupakan platform digital yang memudahkan Masyarakat Bandar Lampung untuk memperoleh informasi peruntukan tata ruang, berkonsultasi mengenai tata ruang dan melaporkan permasalahan terkait tata ruang.  ini, warga dapat dengan mudah mengajukan pertanyaan tentang peraturan tata ruang, serta melaporkan pengaduan mengenai pelanggaran atau masalah yang ada, seperti penggunaan lahan yang tidak sesuai atau dampak pembangunan yang merugikan. KLIK PR juga menyediakan informasi terkini tentang kebijakan dan  kegiatan tata ruang di Kota Bandar Lampung , memfasilitasi transparansi dan partisipasi aktif warga dalam perencanaan dan pengelolaan ruang kota. Dengan adanya platform ini, diharapkan dapat tercipta komunikasi yang lebih baik antara pemerintah dan masyarakat untuk membangun kota yang lebih teratur dan nyaman.
                     </p>
                 </div>
             </div>
