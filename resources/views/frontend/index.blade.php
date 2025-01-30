@@ -15,7 +15,7 @@
         }
 
         .main-banner {
-            background-image: url('{{ asset('img/lampung-hero.png') }}');
+            background-image: url('{{ asset('img/main-bg.png') }}');
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
