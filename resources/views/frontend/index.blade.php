@@ -123,16 +123,16 @@
                 <div class="swiper-slide animate__animated animate__fadeIn">
                     <div class="relative h-full">
                         {{-- <img src="{{ asset('img/lampung-hero.png') }}" alt="Banner 1" class="hidden md:block w-full md:h-full object-cover"> --}}
-                        <div class="text-center border ">
+                        <div class="text-center ">
                             <div class="hero-content text-center  mx-0">
                                 <h1
                                     class="text-3xl md:text-6xl font-bold animate__animated animate__fadeIn text-black/80 mb-6 text-nowrap ">
                                     Selamat datang di Portal</h1>
                                 <h2
-                                    class="text-2xl md:text-3xl font-extrabold animate__animated animate__fadeIn text-yellow-400 mb-3 md:mb-3">
+                                    class="text-2xl md:text-3xl font-extrabold animate__animated animate__fadeIn text-yellow-500 mb-3 md:mb-3">
                                     TATA RUANG</h2>
                                 <h3
-                                    class="text-md md:text-3xl font-extrabold animate__animated animate__fadeIn text-yellow-400 mb-6 px-0 md:max-w-[900px] ">
+                                    class="text-md md:text-3xl font-extrabold animate__animated animate__fadeIn text-yellow-500 mb-6 px-0 md:max-w-[900px] ">
                                     DINAS PERUMAHAN DAN PERMUKIMAN <br> KOTA BANDAR LAMPUNG</h3>
                                 <p
                                     class="text-md text-black/70 bg-white/45 p-2 rounded-md font-bold mb-8  max-w-2xl mx-auto">
